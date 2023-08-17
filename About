@@ -1,0 +1,9 @@
+--> YelpCamp is a web application where a user can view all the campgrounds, review them, add some of his own campgrounds and even edit them.
+
+--> It supports authentication where users can register themselves and log in to have some special access like adding reviews and creating own campground.
+
+--> It supports authorization allowing only the owner of a campground or a review to edit or delete the campgrounds or reviews.
+
+--> Complete CRUD operation is implemented on review and campground model.
+
+--> For frontend, ejs, javascript, css and Bootstrap are used. MongoDb is used as database because it provided all the features of a SQL database alongwith some additional features like scaling. Mongoose library is used to interact with MongoDB. Express is used for routing. Authentication has been implemented by the use of Passport. Cloudinary and Mapbox are used for storing images on cloud and displaying maps. Joi for client side validations.
